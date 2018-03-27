@@ -8,10 +8,8 @@ function myOne(b,a,i){
 	var cres="",j=0;
 	if (a>0) {cres=letters[i*2+1];j++;}
 	switch (b) {
-	case 0:
-		break;
-	case 4:
-		cres=letters[i*2]+letters[i*2+1+j];
+	case 0:	break;
+	case 4:	cres=letters[i*2]+letters[i*2+1+j];
 		break;
 	default:
 		for (var j=0;j<b;j++){cres=cres+letters[i*2]};
